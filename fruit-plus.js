@@ -15,4 +15,13 @@ document.getElementById('fruit-plus').addEventListener('click', function () {
 
     // subTotal show
     document.getElementById('sub-total').innerText = subTotal.toFixed(2);
+
+    // tax show
+    const tax = subTotal * 0.1;
+    
+    // tax show
+    document.getElementById('tax-amount').innerText = tax.toFixed(2);
+
+
+    
 })
