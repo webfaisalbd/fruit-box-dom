@@ -3,6 +3,7 @@ document.getElementById('fruit-plus').addEventListener('click', function (){
     let productNumber = productInput.value;
     productNumber++;
     productInput.value = productNumber;
-    console.log(productNumber);
+    // show product total 
+    document.getElementById('fruit-total').innerText = productNumber * 30;
     
 })
