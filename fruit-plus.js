@@ -22,6 +22,11 @@ document.getElementById('fruit-plus').addEventListener('click', function () {
     // tax show
     document.getElementById('tax-amount').innerText = tax.toFixed(2);
 
+    // total show
+    const total = subTotal + tax;
+    
+    // total show
+    document.getElementById('total-price').innerText = total.toFixed(2);
 
     
 })
