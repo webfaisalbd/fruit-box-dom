@@ -12,4 +12,7 @@ document.getElementById('fruit-plus').addEventListener('click', function () {
     const fruit1Total = (document.getElementById('fruit1-number').value) * 20;
     const subTotal = fruitTotal + fruit1Total;
     // console.log("subtotal: ",subTotal);
+
+    // subTotal show
+    document.getElementById('sub-total').innerText = subTotal.toFixed(2);
 })
